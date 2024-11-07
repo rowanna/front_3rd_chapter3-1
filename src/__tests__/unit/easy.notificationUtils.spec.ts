@@ -1,6 +1,5 @@
-import { Event } from '../../types';
 import { events } from '../../__mocks__/response/realEvents.json';
-
+import { Event } from '../../types';
 import { createNotificationMessage, getUpcomingEvents } from '../../utils/notificationUtils';
 
 describe('getUpcomingEvents', () => {
